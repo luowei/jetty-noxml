@@ -1,0 +1,13 @@
+target
+var
+dependency-reduced-pom.xml
+
+.idea/
+target/
+*.iml
+.settings/
+.project
+.classpath
+logs/
+*.log
+*~
