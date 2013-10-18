@@ -83,7 +83,7 @@ public class WebServer
     {       	    	
         WebAppContext _ctx = new WebAppContext();
         _ctx.setContextPath("/");
-        _ctx.setBaseResource(Resource.newClassPathResource("webapp"));
+        _ctx.setBaseResource(Resource.newClassPathResource("META-INF/webapp"));
         
 		_ctx.setConfigurations (new Configuration []
 		{
